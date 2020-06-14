@@ -39,17 +39,17 @@
 	</build>
   
 <distributionManagement>
-	<repository>
-		<id>tata</id>
-		<name>Internal Releases</name>
-		<url>http://13.233.19.201:8081/nexus/content/repositories/yoodlex/</url>
-	</repository>
+	 <repository>
+        <id>central</id>
+        <name>Subramanis-MacBook-Pro.local-releases</name>
+        <url>http://localhost:8081/artifactory/libs-release</url>
+    </repository>
  
 	<snapshotRepository>
-		<id>tata</id>
-		<name>Internal Releases</name>
-		<url>http://13.233.19.201:8081/nexus/content/repositories/yoodlex/</url>
-	</snapshotRepository>
+        <id>snapshots</id>
+        <name>Subramanis-MacBook-Pro.local-snapshots</name>
+        <url>http://localhost:8081/artifactory/libs-snapshot</url>
+    </snapshotRepository>
 
 </distributionManagement>
 
